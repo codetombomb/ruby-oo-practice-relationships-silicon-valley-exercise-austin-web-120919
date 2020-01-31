@@ -87,17 +87,17 @@ We've provided you with a console that you can use to test your code. To enter a
   - given a **venture capitalist object**, type of investment (as a string), and the amount invested (as a float), creates a new funding round and associates it with that startup and venture capitalist. -->
 <!-- - `Startup#num_funding_rounds`
   - Returns the total number of funding rounds that the startup has gotten -->
-- `Startup#total_funds`
+<!-- - `Startup#total_funds`
   - Returns the total sum of investments that the startup has gotten
 - `Startup#investors`
   - Returns a **unique** array of all the venture capitalists that have invested in this company
 - `Startup#big_investors`
-  - Returns a **unique** array of all the venture capitalists that have invested in this company and are in the Trés Commas club
+  - Returns a **unique** array of all the venture capitalists that have invested in this company and are in the Trés Commas club -->
 
 #### VentureCapitalist
 
-- `VentureCapitalist#offer_contract`
-  - given a **startup object**, type of investment (as a string), and the amount invested (as a float), creates a new funding round and associates it with that startup and venture capitalist.
+<!-- - `VentureCapitalist#offer_contract`
+  - given a **startup object**, type of investment (as a string), and the amount invested (as a float), creates a new funding round and associates it with that startup and venture capitalist. -->
 - `VentureCapitalist#funding_rounds`
   - returns an array of all funding rounds for that venture capitalist
 - `VentureCapitalist#portfolio`
